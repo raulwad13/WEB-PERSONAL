@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="../style.css"/>
+
+</head>
+<body>
+
+    <nav class="enlaces">
+        <ul>
+          <li><a href="../web.html">Inicio</a></li>
+          <li><a href="/pages/videos.html">Videos</a></li>
+          <li><a href="/pages/formulario.html">Registro</a></li>
+          <li><a href="/pages/sobrenosotros.html">Sobre Nosotros</a></li>
+      
+        </ul>
+      </nav>
+      <section class="cabecera">
+        <article class="logo"> <img src="/media/fotologo.webp" alt="fotologo"></article>
+         <br>
+        <p><h1 class="nombreweb">DinoMaster</h1></p>
+    <body>
+        <main class="registro">
+        <form action="datos.php" method="get">
+            <br>
+            <h2><u>Inscribete</u></h2>
+            <br>
+            <br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Escribe tu nombre" maxlength="20" name="nombre" id="nombre">
+            <br>
+            <br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" placeholder="Escribe tus apellidos" maxlength="40" name="apellidos" id="apellidos">
+            <br>
+            <br>
+                <label for="edad">Edad</label>
+                <input type="number" placeholder="Escribe tu edad" maxlength="3" name="edad" id="edad">   
+             <br>
+             <br>  
+             Seleccione su sexo:<select name="sexo" ido="sexo">
+            <option>Hombre</option>
+            <option>Mujer</option>
+            <option>No Binario</option>
+            <option>Otro</option>
+        </select>
+            <br>
+            <br>
+                ¿Te gustan los dinosaurios?<input type="checkbox"  name="tegustanlosd" class="tegustanlosd">Sí
+                <input type="checkbox"  name="tegustanlosd" class="tegustanlosd">Un poco
+                <input type="checkbox"  name="tegustanlosd?" class="tegustanlosd">No
+            <br><br><br>
+            Elige tu equipo dinosaurio<select name="dino" id="dino">
+                <option>Carnivoro</option>
+                <option>Herbivoro</option>
+                <option>Volador</option>
+                <option>Acuatico</option>
+                </select>
+            <br>
+            <br>
+
+                <h2><u>Registrate:</u></h2>
+            <br>
+                
+                Escribe tu e-mail<input type="email" name="email" id="email">
+            <br><br>
+                Pon una contraseña<input type="password" name="contraseña" id="password">
+            <br><br>
+                Confirma la contraseña <input type="password" name="confirmarcontraseña" id="password">
+            <br><br>
+                <button>Enviar</button>
+                <br><br>
+           
+            </form>
+        </main>
+</body>

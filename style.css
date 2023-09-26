@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: rgba(141, 29, 108, 0.795);
+
+}
+.body-enlaces {
+    background-color: aliceblue;
+    
+}
+nav,
+ul,
+li {
+  height: 100%;
+}
+nav > ul > li {
+  
+  list-style: none;
+  display: inline;
+  padding: 24px 4px;
+}
+nav > ul > li:hover {
+  background-color: var(--yellow);
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.cabecera {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.logo {
+    width: 120px;
+    height: 120px;    
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgb(243, 123, 10);
+    margin: auto;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: aliceblue;
+}
+.introduccion {
+    color: antiquewhite;
+}
+main{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+/*Primera explicacion*/
+section p{
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.dinosaurios img{
+    width: 120px;
+    height: 120px;    
+    overflow: hidden;
+    border: 4px solid rgb(243, 123, 10);
+    margin: auto;
+}
+.dinosaurios img{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    margin: 40px;
+    text-align: center;
+}
+h4{
+    margin: 60px;
+    text-align: center;
+}
+.leermas {
+    
+    width: 100px;
+    padding: 20px;
+    margin-top: 50px;
+    border-bottom: solid black;
+}
+.boton {
+    text-align: center;
+}
+.video {
+    margin-top: 100;
+    width: 500px;
+    height: 285px;    
+    overflow: hidden;
+    border: 4px solid rgb(243, 123, 10);
+    margin: auto;
+}
+/* Flex box "sobre nostros" */
+
+.flexcontainer { 
+    border: 1px solid black;
+    background-color: rgb(228, 217, 226);
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    margin-bottom: 50px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.caja{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-basis: 100px;
+    flex-grow: 1;
+    border-style: inherit;
+    border-color: rgb(226, 223, 223);
+    background-color: rgb(230, 77, 204);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 320px;
+    height: 120px;
+    line-height: normal;   
+}
+.sobrenosotros {
+    width: 80px;
+    height: 80px;    
+    overflow: hidden;
+    border: 4px solid rgb(243, 123, 10);
+
+}
+.sobrenosotros img{
+    width: 100%;
+    height: 100px;
+}
+
+.botonnostros{
+    text-align: center;
+}
+
+.text {
+    color: rgb(236, 227, 227);  
+    margin-top: 20px;
+}
+
+.nombre {
+    margin-top: 20px;
+}
+
+
+
